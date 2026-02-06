@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Product Filter</title>
+  <link rel="stylesheet" href="Exp2.2.css">
+</head>
+<body>
+
+<h2>🛒 Dynamic Product Filter</h2>
+
+<div class="controls">
+  <select id="filterCategory">
+    <option value="all">All Categories</option>
+    <option value="electronics">Electronics</option>
+    <option value="fashion">Fashion</option>
+    <option value="books">Books</option>
+  </select>
+
+  <select id="sortOption">
+    <option value="default">Sort By</option>
+    <option value="priceLow">Price: Low to High</option>
+    <option value="priceHigh">Price: High to Low</option>
+    <option value="name">Name (A–Z)</option>
+  </select>
+</div>
+
+<div class="product-grid" id="productGrid"></div>
+
+<script src="Exp2.2.js"></script>
+</body>
+</html>
